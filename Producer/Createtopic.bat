@@ -1,0 +1,2 @@
+C:\Kafka\bin\windows\kafka-topics.bat --create --topic quickstart-events --bootstrap-server localhost:9092
+C:\Kafka\bin\windows\kafka-topics.bat --create --topic quickstart-events --zookeeper localhost:2181 --partitions 1 --replication-factor 1
